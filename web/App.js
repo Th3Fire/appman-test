@@ -44,6 +44,7 @@ class App extends React.Component {
                     this.setState({loginFail: true, submitted: false})
                 }else if (res.status === 200) {
                     this.setState({isLoggedIn: true, loginFail: false, submitted: false})
+                    alert('Login Successed');
                 }
             })
             .then((data) =>  console.log(data))
