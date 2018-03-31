@@ -1,0 +1,86 @@
+:global {
+    // global style here
+    .logo-spin {
+        animation: App-logo-spin infinite 3s linear;
+    }
+
+    @keyframes App-logo-spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}
+
+ html,body {
+     background-color: ghostwhite;
+     font-size: 14px;
+ }
+
+ .container {
+    width: 100%;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin: 0 auto;
+  }
+img.center {
+    width: 180px;
+    display: block;
+    margin: 0 auto;
+}
+input {
+    border-radius: 1rem;
+    width: 100%;
+}
+input:focus {
+    border-color: #242526;
+    outline: none !important;
+    
+}
+p.error {
+    color: red;
+}
+a {
+    color: deepskyblue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: deepskyblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    // display: inline-block;
+    display: block;
+    
+    margin: 0 auto;
+    cursor: pointer;    
+}
+.Login {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    padding: 10px;
+
+    margin: 0 auto;
+    
+}
+@media all and (min-width: 480px) {
+    .Login {
+      
+    }
+  
+    .Login form {
+    //   margin: 0 auto;
+     
+      
+    }
+  }
